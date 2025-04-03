@@ -14,4 +14,5 @@ const addOrConcat = (a, b, c) => {
 const myVal = addOrConcat(2, 2, 'concat');
 console.log(myVal);
 //problem with type assertion 
-const nextVal = addOrConcat(2, 2, 'c
+const nextVal = addOrConcat(2, 2, 'concat');
+console.log(nextVal);
