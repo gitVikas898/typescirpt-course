@@ -24,3 +24,8 @@ console.log(myVal);
 //problem with type assertion 
 const nextVal:number = addOrConcat(2,2,'concat') as number;
 console.log(nextVal);
+// The dom
+const img = document.querySelector('img') as HTMLImageElement;
+if (img) {
+  img.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Typescript.svg/1200px-Typescript.svg.png";
+}

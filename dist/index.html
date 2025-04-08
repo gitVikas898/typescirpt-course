@@ -4,15 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .img-ctn{
+            border: 2px solid blue;
+            height: 80px;
+            width: fit-content;
+        }
+        img{
+            height: 80px;
+        }
+    </style>
 </head>
 <body>
     <main>
         <section>
-            <div>
-                <button type="button" id="js-btn">Click</button>
+            <div class="img-ctn">
+                
+                <img src="" alt="" class="imgg">
             </div>
+            <button type="button" id="js-btn">Click</button>
         </section>
+        <p>Copyright &copy</p><span id="js-year"></span>
     </main>
-    <script src="./typeAssertions.js"></script>
+    <script src="typeAssertions.js" defer></script>
 </body>
 </html>
